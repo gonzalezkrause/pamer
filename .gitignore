@@ -1,0 +1,10 @@
+*.pyc
+*.swp
+*.swo
+*.sublime-*
+.DS_Store
+
+# Test stuff
+defultPassList1.txt
+defultPassList2.txt
+passwds.txt
