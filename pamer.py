@@ -40,7 +40,7 @@ def merger(fileA, fileB):
    mergedPasswds = ''
    listA = [word for word in fileA.split('\n')]
    listB = [word for word in fileB.split('\n')]
-   print('[*] Generatin a list with {0} elements'.format(len(listA) * len(listB)))
+   print('[*] Generating a list with {0} elements'.format(len(listA) * len(listB)))
    for u in listA:
       for p in listB:
          if b64:
