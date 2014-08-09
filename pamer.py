@@ -47,7 +47,7 @@ def merger(fileA, fileB):
             mergedPasswds += b64encode('{0}:{1}'.format(u, p)) + '\n'
          else:
             mergedPasswds += '{0}:{1}\n'.format(u, p)
-   return mergedPasswds
+   return mergedPasswds[:-1]
 
 
 if __name__ == '__main__':
